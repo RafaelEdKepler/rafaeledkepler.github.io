@@ -1,54 +1,48 @@
-# React + TypeScript + Vite
+# 🚀 My Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio! This website showcases who I am, the technologies I work with, and some of the personal and study projects I’ve built over the years.
 
-Currently, two official plugins are available:
+## 🧑‍💻 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+I'm a fullstack developer with a strong focus on frontend development. I specialize in **React**, **Next.js**, **TypeScript**, and **Node.js**, and have been working professionally in the tech industry since **2020**.
 
-## Expanding the ESLint configuration
+I’ve had the opportunity to work on high-traffic applications and always strive to write clean, test-driven, and maintainable code. All the projects listed in this portfolio are personal studies and side projects that I dedicate time to in order to continuously improve and explore new technologies.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠️ Tech Stack
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- React
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🧩 Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Responsive Design** – Looks great on all screen sizes.
+- **Framer Motion Animations** – Smooth transitions and modern interactions.
+- **GitHub Integration** – Dynamically fetches your public repositories.
+- **Fully Componentized** – Easy to maintain and scale.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## 🧪 Projects Showcased
+
+Some of the featured projects include:
+
+- Interactive Timeline component with lane-optimization and optional zoom/edit features.
+- Visual beer e-commerce prototype using React Portals and styled-components.
+- Lightweight BFF API with product listing and quantity endpoints.
+- Wedding website with our story, gift list, and a live stream page.
+- Break timer app to encourage regular study/work breaks.
+- CNN image classifier to detect plant leaf health using Keras.
+- Trello-style kanban board using React and React DnD.
+
+## 📬 Contact
+
+Feel free to reach out or connect:
+
+- [LinkedIn](https://www.linkedin.com/in/rafaeledkepler/)
+- [GitHub](https://github.com/RafaelEdKepler)
+- 📧 rafael.kepler@hotmail.com
+
+---
+
+Thanks for visiting!
