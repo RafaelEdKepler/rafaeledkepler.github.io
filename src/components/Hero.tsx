@@ -6,7 +6,7 @@ const Hero = () => {
       <Particles />
       <div className="content">
         <div className="profile-pic">
-          <img src="https://media.licdn.com/dms/image/v2/D4D03AQEEANcrWUXHxA/profile-displayphoto-shrink_800_800/B4DZUaCwqgHIAo-/0/1739898686731?e=1749686400&v=beta&t=aCU2acWZu-gICBoounqYladGlh0Sr_RSuK5sHcIImC8" />
+          <img alt="My profile Image, a blond man with blue eyes, using white shirt and a brown butterfly tie" src="https://media.licdn.com/dms/image/v2/D4D03AQEEANcrWUXHxA/profile-displayphoto-shrink_800_800/B4DZUaCwqgHIAo-/0/1739898686731?e=1749686400&v=beta&t=aCU2acWZu-gICBoounqYladGlh0Sr_RSuK5sHcIImC8" />
           <div className="profile-pic-placeholder">
             <i className="fas fa-user"></i>
           </div>

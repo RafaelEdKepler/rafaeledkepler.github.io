@@ -14,6 +14,7 @@ export interface ProjectCardComponentProps {
     description: string;
     githubUrl: string;
     technologies: string[];
+    image: string;
     url?: string;
   }
 }

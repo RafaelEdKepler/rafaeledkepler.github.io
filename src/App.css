@@ -3,6 +3,7 @@
   --secondary: #16213e;
   --accent: #0f3460;
   --highlight: #e94560;
+  --highlight-hot: #ff2c2c;
   --text: #f8f8f8;
 }
 
@@ -574,4 +575,38 @@ section h2::after {
 
 .social-links {
   padding-top: 10px;
+}
+
+.chip-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  max-width: 400px;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.chip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 80px;
+  border-radius: 18px;
+  color: var(--text);
+  border-color: var(--primary) !important;
+  border-style: solid;
+  border-width: 1px;
+  height: 20px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chip:hover {
+  background-color: var(--primary);
+}
+
+.chip-text {
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
 }
