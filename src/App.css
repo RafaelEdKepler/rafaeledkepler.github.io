@@ -5,6 +5,7 @@
   --highlight: #e94560;
   --highlight-hot: #ff2c2c;
   --text: #f8f8f8;
+  --chip-border: #4fa3d1
 }
 
 /* Global Styles */
@@ -594,10 +595,10 @@ section h2::after {
   min-width: 80px;
   border-radius: 18px;
   color: var(--text);
-  border-color: var(--primary) !important;
+  border-color: var(--chip-border) !important;
   border-style: solid;
   border-width: 1px;
-  height: 20px;
+  height: 25px;
   cursor: pointer;
   transition: 0.2s;
 }
